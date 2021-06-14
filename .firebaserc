@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-experiments-yh": {
+      "hosting": {
+        "angular-experiments": [
+          "angular-experiments-yh"
+        ]
+      }
+    }
+  }
+}
