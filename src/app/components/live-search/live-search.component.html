@@ -1,0 +1,10 @@
+<input [(ngModel)]="filterText" placeholder="filter">
+<div *ngFor='let item of data | quote: filterText'>
+   <h1>
+      {{item.by}}
+   </h1>
+   <p>
+      {{item.quote }}
+   </p>
+   <hr>
+</div>
