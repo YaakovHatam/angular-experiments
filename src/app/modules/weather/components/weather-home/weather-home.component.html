@@ -1,0 +1,7 @@
+<p>weather-home works!</p>
+<button (click)='fetchCities()'>Fetch cities</button>
+<ul>
+   <li *ngFor='let city of cities'>
+      {{ city | json }}
+   </li>
+</ul>
